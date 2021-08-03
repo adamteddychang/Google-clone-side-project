@@ -1,0 +1,111 @@
+html,  body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+#nav a{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    margin-top: 0.6rem;
+}
+#nav a:hover{
+    text-decoration: underline;
+}
+
+#nav a.top-image{
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: red;
+    border-radius: 80%;
+}
+#main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo{
+    text-align: center;
+}
+#searchbarcontainer{
+    text-align: center;
+    margin-top: 20px;
+
+}
+#searchbar{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 35rem;
+    border-radius: 10rem;
+    border: 1px solid #dfe1e5;  
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#search{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 10px 5px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+#lucky{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 10px 5px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border:1px solid #dadce0;
+    color: #202124;
+}
+#lang-text-container{
+    height: 15rem;
+    width: auto;
+}
+#language-text{
+    text-align: center;
+
+}
+#footercontent{
+    padding: 1.5%;
+    border: 1px solid rgb(223, 220, 220);
+}
+#footerabout{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;  
+}
+.footabt{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footabt:hover{
+    text-decoration: underline;
+
+}
+
